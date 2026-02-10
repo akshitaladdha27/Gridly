@@ -42,14 +42,14 @@ DELETE /api/tasks/:id
 Authorization: Bearer <token>
 
 ## Backend
-cd server
-npm i
-npm run dev
+- cd server
+- npm i
+- npm run dev
 
 ## Frontend
-cd client
-npm i
-npm run dev
+- cd client
+- npm i
+- npm run dev
 
 ## Frontend runs on:  http://localhost:5173
 
@@ -57,12 +57,12 @@ npm run dev
 
 ## Scalability & Production Considerations
 
-Frontend and backend are decoupled, allowing independent scaling
-Axios instance with interceptors centralizes API communication
-JWT authentication enables stateless backend scaling
-Modular folder structure (routes, controllers, middleware)
-User-task relationship ensures multi-user scalability
-MongoDB schema is designed to support large datasets
-In production, tokens can be stored in HttpOnly cookies
-Backend can be containerized using Docker
-Application can be deployed behind a load balancer
+- Frontend and backend are decoupled, allowing independent scaling
+- Axios instance with interceptors centralizes API communication
+- JWT authentication enables stateless backend scaling
+- Modular folder structure (routes, controllers, middleware)
+- User-task relationship ensures multi-user scalability
+- MongoDB schema is designed to support large datasets
+- In production, tokens can be stored in HttpOnly cookies
+- Backend can be containerized using Docker
+- Application can be deployed behind a load balancer
