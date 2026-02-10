@@ -3,9 +3,7 @@
 A full-stack scalable web application with authentication and a protected dashboard.  
 The project demonstrates modern frontend practices, secure backend integration, and clean architecture designed for scalability.
 
----
-
-## 🚀 Tech Stack
+## Tech Stack
 
 ### Frontend
 - React.js
@@ -21,7 +19,6 @@ The project demonstrates modern frontend practices, secure backend integration, 
 - JWT Authentication
 - bcrypt (password hashing)
 
----
 
 ## API Documentation
 
