@@ -35,8 +35,6 @@ export const getTasks = async (req: AuthRequest, res: Response) => {
       return res.status(401).json({ message: "Unauthorized" });
     }
 
-    console.log("FETCH TASKS FOR USER:", req.user.id); 
-
     const tasks = await Task.find({
       user: req.user!.id as any
     }).sort({ createdAt: -1 });
